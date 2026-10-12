@@ -1,0 +1,44 @@
+# Weights: download from GitHub Releases into checkpoints/
+checkpoints/
+*.pth
+*.pt
+*.ckpt
+
+# Datasets (see README for how to download / generate them)
+dataset_*/
+raw_data/
+landslide4sense/
+landslide_workdir/
+*.tif
+*.tiff
+*.h5
+
+# Outputs
+inference_results/
+dataset_40_OOD_testset_results/
+dataset_top3_OOD_paper_figures/
+SR_temp*/
+runs/
+benchmark_results*.csv
+experiment_results.txt
+config_M*.yaml
+config_eval_*.yaml
+output_sr.png
+output_lr.png
+
+# Experiment tracking
+wandb/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.crswap
